@@ -1,0 +1,42 @@
+{
+  "name": "rpayvn/rpay-sdk",
+  "description": "Official RPAY Payment & Banking SDK for PHP (Laravel, WordPress, Pure PHP) — Unified Bank (VietQR 15 Banks) & Crypto (USDT/USDC 18 Networks), Multi-Domain White-Label, LSGD Polling & HMAC-SHA256 Webhooks.",
+  "type": "library",
+  "keywords": [
+    "rpay",
+    "vietqr",
+    "usdt",
+    "sepay",
+    "payment-gateway",
+    "auto-bank",
+    "vietcombank",
+    "acb",
+    "mbbank",
+    "trc20",
+    "bep20",
+    "laravel",
+    "woocommerce"
+  ],
+  "homepage": "https://rpay.vn",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RPay\\SDK\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RPay\\SDK\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
